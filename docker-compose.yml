@@ -1,0 +1,9 @@
+services:
+  trino:
+    image: trinodb/trino
+    volumes:
+      - type: bind
+        source: ./trino-catalog
+        target: /etc/trino/catalog 
+    ports:
+      - 8080:8080
