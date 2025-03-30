@@ -4,6 +4,8 @@ This repository is a simple and free way to be able to practice using the SQL `M
 which for the most part is only available in commercial products, or in systems like Flink that have 
 quite complex setup requirements.
 
+For more details see [Uncovering Event Patterns in SQL with Match_Recognize](https://www.tind.au/blog/match-recognize-with-trino/)
+
 ## Requirements
 
 - docker
